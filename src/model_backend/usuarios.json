@@ -1,0 +1,26 @@
+{
+ 
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "supremo",
+      "password": "admin123",
+      "rol": "maestro",
+      "nombre": "Supremo"
+    },
+    {
+      "id": 2,
+      "usuario": "batgirl",
+      "password": "bat123",
+      "rol": "heroe",
+      "nombre": "Batgirl"
+    },
+    {
+      "id": 3,
+      "usuario": "joker",
+      "password": "ha123",
+      "rol": "villano",
+      "nombre": "Joker"
+    }
+  ]
+}

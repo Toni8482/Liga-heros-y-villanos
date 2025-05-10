@@ -1,0 +1,19 @@
+{
+  "misiones": [
+    {
+      "id": 1,
+      "titulo": "Rescatar al gato",
+      "estado": "pendiente",
+      "personajeId": 1,
+      "recompensa": "medalla"
+    },
+    {
+      "id": 2,
+      "titulo": "Secuestrar alcalde",
+      "estado": "completado",
+      "personajeId": 2,
+      "recompensa": "dinero"
+    }
+  ]
+ 
+}

@@ -1,23 +1,25 @@
 {
- 
-  "usuarios": [
+  "users": [
     {
-      "id": 1,
+      "id": "1",
       "usuario": "supremo",
+      "email": "supremo@mail.com",
       "password": "admin123",
       "rol": "maestro",
       "nombre": "Supremo"
     },
     {
-      "id": 2,
+      "id": "2",
       "usuario": "batgirl",
+      "email": "batgirl@mail.com",
       "password": "bat123",
       "rol": "heroe",
       "nombre": "Batgirl"
     },
     {
-      "id": 3,
-      "usuario": "joker",
+      "id": "3",
+      "usuario": "jokersdv",
+      "email": "joker@mail.com",
       "password": "ha123",
       "rol": "villano",
       "nombre": "Joker"

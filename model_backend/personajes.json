@@ -1,16 +1,19 @@
 {
-  
   "personajes": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Batgirl",
       "tipo": "heroe"
     },
     {
-      "id": 2,
-      "nombre": "Joker",
+      "id": "2",
+      "nombre": "zssds",
       "tipo": "villano"
+    },
+    {
+      "id": "3",
+      "nombre": "erfr",
+      "tipo": "maestro"
     }
   ]
- 
 }

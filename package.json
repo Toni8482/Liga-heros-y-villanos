@@ -6,14 +6,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start:misiones": "json-server --watch ./model_backend/misiones.json --port 3001",
+    "start:personajes": "json-server --watch ./model_backend/personajes.json --port 3002",
+    "start:usuarios": "json-server --watch ./model_backend/usuarios.json --port 3003",
+    "start:all": "concurrently \"npm run start:misiones\" \"npm run start:personajes\" \"npm run start:usuarios\""
   },
   "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0",
+    "json-server": "^0.17.3",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
+    "concurrently": "^9.1.2",
     "vite": "^6.3.5"
   }
 }
